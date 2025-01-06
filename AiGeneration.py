@@ -6,7 +6,7 @@ import random
 #Used for "player says"
 def AiGeneration(): 
   # Set up the OpenAI API key
-  openai.api_key = "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"
+  openai.api_key = "OPEN API KEY HERE"
   
   # Set up the GPT-3 model
   model_engine = "babbage-002"
@@ -34,7 +34,7 @@ def AiGeneration():
 #Used for winner
 def AiGenerationWinner(): 
   # Set up the OpenAI API key
-  openai.api_key = "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"
+  openai.api_key = "OPEN API KEY HERE"
   
   # Set up the GPT-3 model
   model_engine = "babbage-002"
